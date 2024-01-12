@@ -1,0 +1,122 @@
+:root {
+    --bg-color: #fafafa;
+    --text-color: #333;
+    --menu-color: #4fc3f7;
+    --hover-menuColor: #000000;
+    --text-color-item-menu: #fff;
+    --font-text: 'arial';
+}
+body {
+    background-image: url(../img/Ouvindo-musica-1200x450.png);
+    background-color: var(--bg-color);
+    color: var(--text-colo);
+    font-family: var(--font-text);
+}
+.carrinho-vendas {
+    height: 60px;
+    padding: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: end;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.nome {
+    margin-top: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: var(--menu-color);
+}
+
+.item-menu {
+    padding: 20px;
+    height: 40px;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: var(--text-color-item-menu);
+    font-family: var(--font-text);
+    padding: 16px;
+}
+
+.item-menu a:hover {
+    background-color: var(--hover-menuColor);
+    transition: 1s;
+}
+
+.buscar {
+    padding: 10px;
+    height: 40px;
+}
+
+.buscar-produtos {
+    border-radius: .5rem;
+    width: 300px;
+    height: 40px;
+    padding: 6px;
+    outline: none;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--menu-color);
+    color: #fff;
+    /* height: 10em; */
+
+}
+form{
+        margin-top: 20px;
+        color: black;
+        width: 30%;
+        left: 15%;
+        background-color: #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 1ppx 3px rgba(0, 0, 0, .3);     
+}
+input {
+   
+    height: 30px;
+    width: 30em;
+    margin: auto;
+    margin: 4px 4px 4px 4px;
+}
+
+.muanza {
+    justify-content: center;   
+    display: flex;        
+}
+#bota{
+    cursor: pointer;
+    background-color: var(--menu-color);
+    width: 13em;
+    height: 4em;
+    margin-top: 10px;
+    margin-left: 16px;
+    border-radius: 8px;
+    padding: 0;
+    background: linear-gradient(to right,#9dc4ff,#2e74a3 );
+}
+#bota:hover{
+    color: blue;
+    background-color: #ccc;
+}
+
+.cFem{
+    display: inline;
+    padding: 0%;
+    width: 10em;
+    margin: 4px 4px 4px 4px;
+
+}

@@ -1,0 +1,219 @@
+:root {
+    --bg-color: #fafafa;
+    --text-color: #333;
+    --menu-color: #4fc3f7;
+    --hover-menuColor: #000000;
+    --text-color-item-menu: #fff;
+    --new: #29b6f6;
+    --font-text: 'arial';
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.nome {
+    margin-top: 15px;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-colo);
+    font-family: var(--font-text);
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: var(--menu-color);
+}
+.item-menu {
+    padding: 20px;
+    height: 40px;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: var(--text-color-item-menu);
+    font-family: var(--font-text);
+    padding: 16px;
+}
+
+.item-menu a:hover {
+    background-color: var(--hover-menuColor);
+    transition: 1s;
+}
+
+.buscar {
+    padding: 10px;
+    height: 40px;
+}
+
+.buscar-produtos {
+    border-radius: .5rem;
+    width: 300px;
+    height: 40px;
+    padding: 6px;
+    outline: none;
+}
+
+.text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../img/Ouvindo-musica-1200x450.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #fff;
+}
+
+.section-vendas {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.item-vendas img {
+    width: 250px;
+    height: 250px;
+}
+
+.carrinho-vendas {
+    height: 60px;
+    padding: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: end;
+}
+
+.carrinho-vendas button {
+    background-color: transparent;
+    font-size: 1rem;
+    width: 50px;
+    height: 45px;
+    border-radius: .5;
+    cursor: pointer;
+    border: 1px solid #fafafa;
+}
+
+.carrinho-vendas button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.servico {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: var(--menu-color);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+}
+#text{
+    color: #000;
+}
+.row{
+    text-align: center;
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--menu-color);
+    color: #fff;
+}
+.look{
+    color: #000;
+    text-decoration: none;
+    text-align: right;
+}
+.para {
+    text-align: justify;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.son {
+    text-align: center;
+    margin: auto;   
+}
+.fone {
+    background-color: #29b6f6;
+    border: #0277bd 2px solid;
+    background-color: var(--new) ; 
+    height: 50px;
+    padding-top: 15px;
+}
+.justo {
+    margin-top: 20px;
+}
+.fone{
+    cursor: pointer;
+}
